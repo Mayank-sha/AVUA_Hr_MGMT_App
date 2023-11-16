@@ -1,0 +1,43 @@
+.candidate {
+  @apply p-5 rounded-2xl bg-white;
+}
+
+.candidateHeader {
+  @apply flex justify-between items-center mb-1;
+}
+
+.priority {
+  @apply text-xs font-medium capitalize py-[0.25rem] px-[0.38rem] rounded-[4px];
+}
+
+.low {
+  @apply bg-yellow-light bg-opacity-20 text-yellow;
+}
+
+.high {
+  @apply bg-red bg-opacity-10 text-red;
+}
+
+.completed {
+  @apply bg-green-light bg-opacity-20 text-green;
+}
+
+.candidateInfo {
+  @apply flex flex-col gap-[6px] mb-7;
+}
+
+.images {
+  @apply grid grid-flow-col auto-cols-fr;
+}
+
+.footer {
+  @apply flex justify-between items-center lg:flex-col lg:items-start lg:gap-2 xl:flex-row xl:items-center;
+}
+
+.tagsContainer {
+  @apply flex flex-col gap-[10px] sm:flex-row sm:items-center;
+}
+
+.tag {
+  @apply flex gap-[5px] items-center text-xs font-medium text-grey;
+}
